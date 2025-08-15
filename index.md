@@ -1,6 +1,6 @@
 ---
 layout: base
-title: I'm [Your Full Name]
+title: I'm Varada Chirag Vichare
 hide: true
 ---
 
@@ -14,7 +14,6 @@ Hi! My name is  🍩Varada Chirag Vichare 🍩.
 | Scrummer     | Torin    | github.com/torin/student            | downstream (fork)     | student   |
 | Scrummer     | Avantika | github.com/avantika/student         | downstream (fork)     | student   |
 | Scrummer     | Aadit    | github.com/aaadit/student           | downstream (fork)     | student   |
-
 
 ## Links to Learning
 
@@ -64,3 +63,40 @@ Hi! My name is  🍩Varada Chirag Vichare 🍩.
 > Feel free to reach out if you'd like to collaborate or learn more about our work.
 
 <p style="color: #a82ab1ff;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #f10a9cff; text-decoration: underline;">Socials</a></p>
+
+<!-- Floating Balloons Code -->
+<style>
+  .balloon {
+    position: fixed;
+    width: 30px;
+    height: 40px;
+    background: pink;
+    border-radius: 50% 50% 50% 50%;
+    opacity: 0.8;
+    animation: floatDown 10s linear infinite;
+    z-index: 9999;
+  }
+
+  @keyframes floatDown {
+    0% {
+      transform: translateY(-100px) translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(120vh) translateX(20px);
+      opacity: 0;
+    }
+  }
+</style>
+
+<script>
+  // Create multiple balloons
+  function createBalloon() {
+    const balloon = document.createElement('div');
+    balloon.classList.add('balloon');
+
+    // Random position and delay
+    balloon.style.left = Math.random() * 100 + 'vw';
+    balloon.style.animat
+
+
