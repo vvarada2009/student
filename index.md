@@ -4,9 +4,19 @@ title: I'm [Your Full Name]
 hide: true
 ---
 
-Hi! My name is 🤑 Varada Vichare 🍩.
+### Me and Team
+
+Hi! My name is  🍩Varada Chirag Vichare 🍩.
+
+| Role         | Name     | Repo Location                       | Stream                | Repo Name |
+|--------------|----------|-------------------------------------|-----------------------|-----------|
+| Scrum Master | John     | github.com/jm1021/student           | upstream (OCS fork)   | student   |
+| Scrummer     | Torin    | github.com/torin/student            | downstream (fork)     | student   |
+| Scrummer     | Avantika | github.com/avantika/student         | downstream (fork)     | student   |
+| Scrummer     | Aadit    | github.com/aaadit/student           | downstream (fork)     | student   |
 
 
+## Links to Learning
 
 ### Development Environment
 
@@ -35,12 +45,12 @@ Hi! My name is 🤑 Varada Vichare 🍩.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
-        <div style="background-color: #a200ffa7; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #00FF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Snake Game
         </div>
     </a>
     <a href="{{site.baseurl}}/turtle" style="text-decoration: none;">
-        <div style="background-color: #102fbbe1; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Turtle
         </div>
     </a>
@@ -53,4 +63,4 @@ Hi! My name is 🤑 Varada Vichare 🍩.
 
 > Feel free to reach out if you'd like to collaborate or learn more about our work.
 
-<p style="color: #2a7db18c;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2a7db1a0; text-decoration: underline;">Socials</a></p>
+<p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
