@@ -45,7 +45,7 @@ Hi! My name is  🍩Varada Chirag Vichare 🍩.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
-        <div style="background-color: #00FF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #ff0000ff; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Snake Game
         </div>
     </a>
@@ -63,4 +63,4 @@ Hi! My name is  🍩Varada Chirag Vichare 🍩.
 
 > Feel free to reach out if you'd like to collaborate or learn more about our work.
 
-<p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
+<p style="color: #a82ab1ff;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #f10a9cff; text-decoration: underline;">Socials</a></p>
