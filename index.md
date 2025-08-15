@@ -64,7 +64,7 @@ hide: true
 
 <p style="color: #a82ab1ff;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #f10a9cff; text-decoration: underline;">Socials</a></p>
 
-<!-- Floating Balloons Code -->
+<!-- Balloon Styles -->
 <style>
   .balloon {
     position: fixed;
@@ -73,30 +73,41 @@ hide: true
     background: pink;
     border-radius: 50% 50% 50% 50%;
     opacity: 0.8;
-    animation: floatDown 10s linear infinite;
+    animation: floatUp 10s linear infinite;
     z-index: 9999;
   }
 
-  @keyframes floatDown {
+  @keyframes floatUp {
     0% {
-      transform: translateY(-100px) translateX(0);
+      transform: translateY(120vh) translateX(0);
       opacity: 1;
     }
     100% {
-      transform: translateY(120vh) translateX(20px);
+      transform: translateY(-100px) translateX(20px);
       opacity: 0;
     }
   }
 </style>
 
 <script>
-  // Create multiple balloons
   function createBalloon() {
     const balloon = document.createElement('div');
     balloon.classList.add('balloon');
-
-    // Random position and delay
+    
+    // Set random horizontal position
     balloon.style.left = Math.random() * 100 + 'vw';
-    balloon.style.animat
 
+    // Set random animation delay so they don't all move at once
+    balloon.style.animationDelay = Math.random() * 5 + 's';
 
+    document.body.appendChild(balloon);
+
+    // Remove the balloon after animation is done (10s + buffer)
+    setTimeout(() => {
+      balloon.remove();
+    }, 11000);
+  }
+
+  // Create balloons every 1 second
+  setInterval(createBalloon, 1000);
+</script>
